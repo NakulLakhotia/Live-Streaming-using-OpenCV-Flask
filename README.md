@@ -24,3 +24,5 @@ A Flask Web-App to stream live from local webcam or CCTV (rtsp link)
 net , buffer = cv2.imencode('.jpg', frame)
 buffer.tobytes()              
 ```
+
+### [Reference](https://blog.miguelgrinberg.com/post/video-streaming-with-flask)
