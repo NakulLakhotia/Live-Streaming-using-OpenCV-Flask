@@ -4,7 +4,8 @@ A Flask Web-App to stream live from local webcam or CCTV (rtsp link)
 ## Use Built-in Webcam of Laptop
 
 ### Put Zero (O) in cv2.VideoCapture(0)
-cv2.VideoCapture(0)
+
+``` cv2.VideoCapture(0) ```
 
 ### Use Ip Camera/CCTV/RTSP Link
 cv2.VideoCapture('rtsp://username:password@camera_ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp')  
