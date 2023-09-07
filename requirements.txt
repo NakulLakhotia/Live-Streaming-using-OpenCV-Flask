@@ -1,0 +1,3 @@
+Flask 
+flask-login
+opencv-python
