@@ -12,7 +12,7 @@ app.config['LOGIN_DISABLED'] = False  # Ensure login functionality is enabled
 app.config['LOGIN_VIEW'] = 'login'
 
 login_manager = LoginManager()
- #Added this line fixed the issue.
+#Added this line fixed the issue.
 login_manager.init_app(app) 
 login_manager.login_view = 'users.login'
 
@@ -21,9 +21,9 @@ class User(UserMixin):
     def __init__(self, id):
         self.id = id
 
-users = {'admin': {'password': 'admin'}}
+users = {'giulicrenna@gmail.com': {'password': 'kirchhoff2002'}}
 
-camera = cv2.VideoCapture(1)  # Use 0 for default camera, replace with camera URL for IP camera
+camera = cv2.VideoCapture(0)  # Use 0 for default camera, replace with camera URL for IP camera
 
 def generate_frames():
     while True:
